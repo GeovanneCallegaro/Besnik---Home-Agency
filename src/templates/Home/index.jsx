@@ -1,9 +1,10 @@
-function App() {
-  return (
-    <div className="App">
-      <h1>Oi</h1>
-    </div>
-  );
-}
+import { Header } from '../../components/Header';
+import * as C from './styles';
 
-export default App;
+export const Home = () => {
+  return (
+    <C.Container>
+      <Header />
+    </C.Container>
+  );
+};
