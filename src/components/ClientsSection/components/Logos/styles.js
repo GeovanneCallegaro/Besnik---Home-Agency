@@ -10,6 +10,7 @@ export const Container = styled.div`
     justify-content: center;
     gap: 200px;
     margin: 0 auto;
+    fill: none;
   `}
 `;
 

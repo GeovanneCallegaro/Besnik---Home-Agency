@@ -8,7 +8,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px;
+    background-color: #FFF;
   `}
 `;
 
@@ -20,6 +20,7 @@ export const SectionUpper = styled.div`
     justify-content: space-around;
     margin: 0 auto;
     gap: 370px;
+    margin-top: 40px;
   `}
 `;
 
