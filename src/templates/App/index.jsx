@@ -1,6 +1,7 @@
 import { FeaturedNumbers } from '../FeaturedNumbers';
 import { FeaturedProperties } from '../FeaturedProperties';
 import { Home } from '../Home';
+import { Newsletter } from '../Newsletter';
 import { Works } from '../Works';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Works />
       <FeaturedProperties />
       <FeaturedNumbers />
+      <Newsletter />
     </>
   );
 }
