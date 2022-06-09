@@ -3,11 +3,9 @@ import P from 'prop-types';
 import { TextLinks } from '../../../TextLinks';
 
 export const SellerIcon = ({ imgLink, text, textLink }) => {
-  console.log(imgLink);
-
   return (
     <C.Container>
-      <img src={imgLink} alt="Imagem enviada" />
+      <img src={imgLink} alt="Imagem enviada" loading="lazy" />
       <h4>{text}</h4>
       <TextLinks text={textLink} />
     </C.Container>

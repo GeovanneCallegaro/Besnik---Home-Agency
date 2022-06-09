@@ -9,8 +9,8 @@ export const FeaturedNumbers = () => {
     <C.Container>
       <C.TextContainer>
         <C.ImageContainer>
-          <img src={CardInfo} alt="Infos" className="card" />
-          <img src={HouseFour} alt="Casa" className="house" />
+          <img src={CardInfo} alt="Infos" className="card" loading="lazy" />
+          <img src={HouseFour} alt="Casa" className="house" loading="lazy" />
         </C.ImageContainer>
         <C.InfosTextContainer>
           <Line width="40" />

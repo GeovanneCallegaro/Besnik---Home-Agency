@@ -12,7 +12,7 @@ export const Newsletter = () => {
           <Button background={false}>Get Started Now</Button>
         </C.TextContainer>
         <C.ImageIllustration>
-          <img src={HouseIllustration} alt="Imagem" />
+          <img src={HouseIllustration} alt="Imagem" loading="lazy" />
         </C.ImageIllustration>
       </C.Background>
     </C.Container>

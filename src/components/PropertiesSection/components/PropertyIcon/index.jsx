@@ -22,15 +22,15 @@ export const PropertyIcon = ({
         </C.MasterInfos>
         <C.SecondaryInfos>
           <C.InfoContainer>
-            <img src={BedsIcon} alt="icone de uma cama" />
+            <img src={BedsIcon} alt="icone de uma cama" loading="lazy" />
             <p>{numberBeds} Beds</p>
           </C.InfoContainer>
           <C.InfoContainer>
-            <img src={BathIcon} alt="icone de uma cama" />
+            <img src={BathIcon} alt="icone de uma cama" loading="lazy" />
             <p>{numberBaths} Baths</p>
           </C.InfoContainer>
           <C.InfoContainer>
-            <img src={SquareIcon} alt="icone de uma cama" />
+            <img src={SquareIcon} alt="icone de uma cama" loading="lazy" />
             <p>{numberSqft} Sqft</p>
           </C.InfoContainer>
         </C.SecondaryInfos>

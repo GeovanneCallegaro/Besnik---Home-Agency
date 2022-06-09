@@ -6,7 +6,7 @@ export const TextLinks = ({ text }) => {
   return (
     <C.Container>
       <p>{text}</p>
-      <img src={ArrowLeft} alt="seta" />
+      <img src={ArrowLeft} alt="seta" loading="lazy" />
     </C.Container>
   );
 };
