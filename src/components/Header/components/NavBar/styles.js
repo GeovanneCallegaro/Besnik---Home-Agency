@@ -27,5 +27,9 @@ export const NavLink = styled.li`
     font-family: ${theme.fonts.primaryFont};
     color: #4F5361;
     font-weight: 500;
+
+    @media (max-width: 1300px) {
+      padding: 5px;
+    }
   `}
 `;

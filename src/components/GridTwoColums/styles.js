@@ -12,6 +12,17 @@ export const Container = styled.div`
     & > img {
       width: 510px;
       margin-right: -20px;
+
+      @media (max-width: 1300px) {
+        width: 400px;
+        margin-top: 70px;
+        margin-right: -30px;
+      }
+    }
+
+    @media (max-width: 1300px) {
+      width: 800px;
+      justify-content: space-around;
     }
   `}
 `;

@@ -20,6 +20,11 @@ export const Header = styled.div`
     align-items: center;
     margin-top: 30px;
     gap: 350px;
+
+    @media (max-width: 1300px) {
+      width: 800px;
+      gap: 220px;
+    }
   `}
 `;
 

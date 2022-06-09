@@ -21,6 +21,11 @@ export const SectionUpper = styled.div`
     margin: 0 auto;
     gap: 370px;
     margin-top: 40px;
+
+    @media (max-width: 1300px) {
+      width: 800px;
+      gap: 360px;
+    }
   `}
 `;
 

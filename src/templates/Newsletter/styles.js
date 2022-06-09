@@ -20,6 +20,11 @@ export const Background = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    @media (max-width: 1300px) {
+      width: 800px;
+      justify-content: center;
+    }
   `}
 `;
 
@@ -30,6 +35,10 @@ export const TextContainer = styled.div`
       color: #FFF;
       font-size: 2.4rem;
       font-weight: 500;
+
+      @media (max-width: 1300px) {
+        font-size: 2.5rem;
+      }
     }
 
     p {
@@ -47,5 +56,11 @@ export const ImageIllustration = styled.div`
   ${({ theme }) => css`
     margin-top: -30px;
 
+    @media (max-width: 1300px) {
+      width: 400px;
+      height: 400px;
+
+      margin-top: -40px;
+    }
   `}
 `;

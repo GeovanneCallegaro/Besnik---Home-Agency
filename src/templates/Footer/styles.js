@@ -10,6 +10,11 @@ export const Container = styled.div`
     margin: 0 auto;
     margin-top: 60px;
     gap: 680px;
+
+    @media (max-width: 1300px) {
+      width: 800px;
+      gap: 550px;
+    }
   `}
 `;
 

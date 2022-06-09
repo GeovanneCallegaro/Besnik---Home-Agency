@@ -18,6 +18,11 @@ export const TextContainer = styled.div`
     justify-content: center;
     gap: 120px;
     margin: 0 auto;
+
+    @media (max-width: 1300px) {
+      width: 800px;
+      gap: 0px;
+    }
   `}
 `;
 
@@ -32,6 +37,13 @@ export const ImageContainer = styled.div`
       z-index: 10;
       top: 20px;
       right: 230px;
+
+      @media (max-width: 1300px) {
+        width: 350px;
+        height: 350px;
+        right: 250px;
+        top: 10px;
+      }
     }
 
     img.house {
@@ -74,5 +86,10 @@ export const InfosContainer = styled.div`
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
+
+    @media (max-width: 1300px) {
+      width: 800px;
+      gap: 60px;
+    }
   `}
 `;
