@@ -7,10 +7,10 @@ import WooCommerce from '../../../../assets/images/woocommerce.svg';
 export const Logos = () => {
   return (
     <C.Container>
-      <C.LogoEmprise src={MeUndies} />
-      <C.LogoEmprise src={SitePoint} />
-      <C.LogoEmprise src={Slack} />
-      <C.LogoEmprise src={WooCommerce} />
+      <C.LogoEmprise src={MeUndies} alt="Logo da MeUndies" />
+      <C.LogoEmprise src={SitePoint} alt="Logo da SitePoint" />
+      <C.LogoEmprise src={Slack} alt="Logo do Slack" />
+      <C.LogoEmprise src={WooCommerce} alt="Logo do WooCommerce" />
     </C.Container>
   );
 };

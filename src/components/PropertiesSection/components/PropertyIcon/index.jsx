@@ -14,7 +14,7 @@ export const PropertyIcon = ({
 }) => {
   return (
     <C.Container>
-      <C.ImageProperty src={srcImage} />
+      <C.ImageProperty src={srcImage} alt="Foto da casa" />
       <C.InfosPropertySection>
         <C.MasterInfos>
           <h4>${price}</h4>
