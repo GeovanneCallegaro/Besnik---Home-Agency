@@ -26,6 +26,11 @@ export const SectionUpper = styled.div`
       width: 800px;
       gap: 360px;
     }
+
+    @media (max-width: 810px) {
+      width: 600px;
+      gap: 160px;
+    }
   `}
 `;
 

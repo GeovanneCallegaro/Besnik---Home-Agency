@@ -11,10 +11,16 @@ export const Container = styled.div`
     gap: 200px;
     margin: 0 auto;
     fill: none;
+    flex-wrap: wrap;
 
     @media (max-width: 1300px) {
       width: 800px;
       gap: 120px;
+    }
+
+    @media (max-width: 810px) {
+      width: 600px;
+      gap: 60px;
     }
   `}
 `;
@@ -28,5 +34,6 @@ export const LogoEmprise = styled.img`
       width: 100px;
       height: 110px;
     }
+
   `}
 `;

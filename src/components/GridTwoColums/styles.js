@@ -18,11 +18,30 @@ export const Container = styled.div`
         margin-top: 70px;
         margin-right: -30px;
       }
+
+      @media (max-width: 960px) {
+        width: 300px;
+        margin-right: 0px;
+      }
+
+      @media (max-width: 810px) {
+        width: 250px;
+        margin-top: 120px;
+      }
     }
 
     @media (max-width: 1300px) {
       width: 800px;
       justify-content: space-around;
+    }
+
+    @media (max-width: 960px) {
+      gap: 50px;
+    }
+
+    @media (max-width: 810px) {
+      width: 600px;
+      margin-top: 20px;
     }
   `}
 `;

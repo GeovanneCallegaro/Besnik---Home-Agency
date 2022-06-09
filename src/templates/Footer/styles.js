@@ -15,6 +15,11 @@ export const Container = styled.div`
       width: 800px;
       gap: 550px;
     }
+
+    @media (max-width: 810px) {
+      width: 600px;
+      gap: 400px;
+    }
   `}
 `;
 
@@ -36,6 +41,16 @@ export const SocialMediaContainer = styled.div`
       cursor: pointer;
       margin-left: 10px;
       color: #000;
+
+      @media (max-width: 810px) {
+        font-size: 2.5rem;
+        margin-left: 0px;
+      }
     }
+
+    @media (max-width: 810px) {
+      width: 120px;
+    }
+
   `}
 `;

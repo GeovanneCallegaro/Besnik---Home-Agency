@@ -25,6 +25,11 @@ export const Header = styled.div`
       width: 800px;
       gap: 220px;
     }
+
+    @media (max-width: 810px) {
+      width: 600px;
+      gap: 70px;
+    }
   `}
 `;
 

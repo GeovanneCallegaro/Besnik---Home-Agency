@@ -35,11 +35,19 @@ export const Container = styled.div`
       @media (max-width: 1300px) {
         font-size: 4rem;
       }
+
+      @media (max-width: 960px) {
+        font-size: 3.5rem;
+      }
     }
 
     @media (max-width: 1300px) {
       margin-left: 0;
       width: 400px;
+    }
+
+    @media (max-width: 960px) {
+      width: 300px;
     }
   `}
 `;

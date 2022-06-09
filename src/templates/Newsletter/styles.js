@@ -23,13 +23,17 @@ export const Background = styled.div`
 
     @media (max-width: 1300px) {
       width: 800px;
-      justify-content: center;
+    }
+
+    @media (max-width: 810px) {
+      width: 600px;
     }
   `}
 `;
 
 export const TextContainer = styled.div`
   ${({ theme }) => css`
+  
     h2 {
       font-family: ${theme.fonts.primaryFont};
       color: #FFF;
@@ -37,7 +41,7 @@ export const TextContainer = styled.div`
       font-weight: 500;
 
       @media (max-width: 1300px) {
-        font-size: 2.5rem;
+        font-size: 4rem;
       }
     }
 
@@ -47,6 +51,10 @@ export const TextContainer = styled.div`
       font-size: 1.3rem;
       line-height: 60px;
       font-weight: 400;
+
+      @media (max-width: 1300px) {
+        font-size: 1.6rem;
+      }
     }
 
   `}
@@ -57,10 +65,9 @@ export const ImageIllustration = styled.div`
     margin-top: -30px;
 
     @media (max-width: 1300px) {
-      width: 400px;
-      height: 400px;
-
-      margin-top: -40px;
+      width: 300px;
+      height: 300px;
+      display: none;
     }
   `}
 `;

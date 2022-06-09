@@ -15,6 +15,22 @@ export const Container = styled.header`
       width: 800px;
       justify-content: space-between;
     }
+
+    
+    .menu {
+      display: none;
+      font-size: 2rem;
+
+      @media (max-width: 810px) {
+        display: block;
+      }
+    }
+
+    @media (max-width: 810px) {
+      width: 600px;
+      justify-content: space-between;
+    }
+
   `}
 `;
 
@@ -34,5 +50,10 @@ export const LogoContainer = styled.div`
 
 export const ButtonsSection = styled.div`
   display: flex;
+  align-items: center;
   padding: 5px;
+
+  @media (max-width: 810px) {
+    display: none;
+  }
 `;

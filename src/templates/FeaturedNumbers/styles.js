@@ -23,6 +23,10 @@ export const TextContainer = styled.div`
       width: 800px;
       gap: 0px;
     }
+
+    @media (max-width: 810px) {
+      width: 600px;
+    }
   `}
 `;
 
@@ -43,6 +47,9 @@ export const ImageContainer = styled.div`
         height: 300px;
         right: 160px;
         top: -10px;
+      }
+
+      @media (max-width: 810px) {
         display: none;
       }
     }
@@ -54,6 +61,11 @@ export const ImageContainer = styled.div`
       @media (max-width: 1300px) {
         width: 400px;
         height: 450px;
+      }
+
+      @media (max-width: 810px) {
+        width: 300px;
+        height: 400px;
       }
     }
 
@@ -75,6 +87,11 @@ export const InfosTextContainer = styled.div`
       line-height: 50px;
       margin-top: 5px;
       margin-bottom: 20px;
+
+      @media (max-width: 810px) {
+        width: 210px;
+        line-height: 35px;
+      }
     }
 
     p {
@@ -82,6 +99,15 @@ export const InfosTextContainer = styled.div`
       font-family: ${theme.fonts.primaryFont};
       color: #5A6473;
       font-size: 1.5rem;
+
+      @media (max-width: 810px) {
+        font-size: 1.3rem;
+        width: 250px;
+      }
+    }
+
+    @media (max-width: 810px) {
+      margin-top: -30px;
     }
   `}
 `;
@@ -92,10 +118,15 @@ export const InfosContainer = styled.div`
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
+    flex-wrap: wrap;
 
     @media (max-width: 1300px) {
       width: 800px;
       gap: 60px;
+    }
+
+    @media (max-width: 810px) {
+      width: 600px;
     }
   `}
 `;

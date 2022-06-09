@@ -31,5 +31,11 @@ export const Container = styled.div`
       width: 250px;
       height: 250px;
     } 
+
+    @media (max-width: 810px) {
+      width: 200px;
+      height: 200px;
+      margin-top: 40px;
+    } 
   `}
 `;
