@@ -31,6 +31,9 @@ export const Container = styled.header`
       justify-content: space-between;
     }
 
+    @media (max-width: 610px) {
+      width: 400px;
+    }
   `}
 `;
 

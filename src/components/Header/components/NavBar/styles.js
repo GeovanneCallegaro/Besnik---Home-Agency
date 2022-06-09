@@ -40,6 +40,10 @@ export const LinksContainer = styled.ul`
       }
     }
 
+    @media (min-width: 810px) {
+      display: flex !important;
+    }
+
     @media (max-width: 810px) {
       position: absolute;
       flex-direction: column;
@@ -59,6 +63,10 @@ export const ButtonsSection = styled.div`
   align-items: center;
   justify-content: center;
   padding: 5px;
+
+  @media (min-width: 810px) {
+    display: none;
+  }
 `;
 
 export const NavLink = styled.li`

@@ -28,11 +28,22 @@ export const Background = styled.div`
     @media (max-width: 810px) {
       width: 600px;
     }
+
+    @media (max-width: 610px) {
+      width: 400px;
+    }
   `}
 `;
 
 export const TextContainer = styled.div`
   ${({ theme }) => css`
+
+    @media (max-width: 610px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
   
     h2 {
       font-family: ${theme.fonts.primaryFont};
@@ -42,6 +53,10 @@ export const TextContainer = styled.div`
 
       @media (max-width: 1300px) {
         font-size: 4rem;
+      }
+
+      @media (max-width: 610px) {
+        font-size: 3rem;
       }
     }
 
@@ -54,6 +69,11 @@ export const TextContainer = styled.div`
 
       @media (max-width: 1300px) {
         font-size: 1.6rem;
+      }
+
+      @media (max-width: 610px) {
+        font-size: 1.5rem;
+        line-height: 40px;
       }
     }
 

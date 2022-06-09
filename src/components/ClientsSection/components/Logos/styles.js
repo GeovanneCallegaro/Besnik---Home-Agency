@@ -22,6 +22,11 @@ export const Container = styled.div`
       width: 600px;
       gap: 60px;
     }
+
+    @media (max-width: 610px) {
+      width: 400px;
+      gap: 20px;
+    }
   `}
 `;
 
@@ -32,6 +37,11 @@ export const LogoEmprise = styled.img`
 
     @media (max-width: 1300px) {
       width: 100px;
+      height: 110px;
+    }
+
+    @media (max-width: 610px) {
+      width: 110px;
       height: 110px;
     }
 

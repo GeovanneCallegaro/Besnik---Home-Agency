@@ -31,6 +31,11 @@ export const SectionUpper = styled.div`
       width: 600px;
       gap: 160px;
     }
+
+    @media (max-width: 610px) {
+      width: 400px;
+      gap: 50px;
+    }
   `}
 `;
 
@@ -47,6 +52,10 @@ export const TextEmprise = styled.div`
       font-size: 1.2rem;
       font-weight: 300;
       text-indent: 4px;
+
+      @media (max-width: 610px) {
+        font-size: 1rem;
+      }
     }
   `}
 `;
@@ -56,6 +65,10 @@ export const RatedEmprise = styled.div`
     img {
       margin-left: 60px;
       width: 100px;
+
+      @media (max-width: 610px) {
+        margin-left: 20px;
+      }
     }
 
     p {
@@ -65,6 +78,10 @@ export const RatedEmprise = styled.div`
       font-weight: 300;
       text-indent: 4px;
       margin-top: 5px;
+
+      @media (max-width: 610px) {
+        display: none;
+      }
     }
   `}
 `;

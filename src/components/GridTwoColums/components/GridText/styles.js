@@ -23,6 +23,11 @@ export const Container = styled.div`
         margin-top: 20px;
         font-size: 1.3rem;
       }
+
+      @media (max-width: 610px) {
+        font-size: 1.5rem;
+        text-align: center;
+      }
     }
 
     h1 {
@@ -39,6 +44,12 @@ export const Container = styled.div`
       @media (max-width: 960px) {
         font-size: 3.5rem;
       }
+
+      @media (max-width: 610px) {
+        font-size: 4rem;
+        line-height: 45px;
+        text-align: center;
+      }
     }
 
     @media (max-width: 1300px) {
@@ -48,6 +59,14 @@ export const Container = styled.div`
 
     @media (max-width: 960px) {
       width: 300px;
+    }
+
+    @media (max-width: 610px) {
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      margin-bottom: 30px;
+      margin-top: 30px;
     }
   `}
 `;

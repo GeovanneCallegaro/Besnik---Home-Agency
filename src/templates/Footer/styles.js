@@ -20,6 +20,11 @@ export const Container = styled.div`
       width: 600px;
       gap: 400px;
     }
+
+    @media (max-width: 610px) {
+      width: 400px;
+      gap: 200px;
+    }
   `}
 `;
 

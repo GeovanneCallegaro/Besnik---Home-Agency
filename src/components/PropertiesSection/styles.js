@@ -19,5 +19,9 @@ export const Container = styled.div`
     @media (max-width: 810px) {
       width: 600px;
     }
+
+    @media (max-width: 610px) {
+      width: 400px;
+    }
   `}
 `;

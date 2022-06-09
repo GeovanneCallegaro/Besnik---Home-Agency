@@ -30,6 +30,12 @@ export const Header = styled.div`
       width: 600px;
       gap: 70px;
     }
+
+    @media (max-width: 610px) {
+      width: 400px;
+      gap: 0px;
+      flex-direction: column;
+    }
   `}
 `;
 
@@ -40,6 +46,10 @@ export const TitleContainer = styled.div`
       font-family: ${theme.fonts.primaryFont};
       font-size: 3rem;
       font-weight: 600;
+
+      @media (max-width: 610px) {
+        text-align: center;
+      }
     }
 
     p {
@@ -48,6 +58,10 @@ export const TitleContainer = styled.div`
       font-weight: 300;
       font-family: ${theme.fonts.primaryFont};
       margin-top: -5px;
+
+      @media (max-width: 610px) {
+        margin-bottom: 10px;
+      }
     }
   `}
 `;

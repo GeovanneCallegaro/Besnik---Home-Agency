@@ -28,6 +28,10 @@ export const Container = styled.div`
         width: 250px;
         margin-top: 120px;
       }
+
+      @media (max-width: 610px) {
+        display: none;
+      }
     }
 
     @media (max-width: 1300px) {
@@ -42,6 +46,10 @@ export const Container = styled.div`
     @media (max-width: 810px) {
       width: 600px;
       margin-top: 20px;
+    }
+
+    @media (max-width: 610px) {
+      width: 400px;
     }
   `}
 `;
