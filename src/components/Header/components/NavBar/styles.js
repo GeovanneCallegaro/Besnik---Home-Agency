@@ -55,6 +55,8 @@ export const LinksContainer = styled.ul`
       display: none;
       justify-content: center;
     }
+
+    
   `}
 `;
 

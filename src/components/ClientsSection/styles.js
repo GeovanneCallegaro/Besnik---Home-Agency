@@ -36,6 +36,11 @@ export const SectionUpper = styled.div`
       width: 400px;
       gap: 50px;
     }
+
+    @media (max-width: 410px) {
+      width: 300px;
+      gap: 0px;
+    }
   `}
 `;
 
@@ -55,6 +60,10 @@ export const TextEmprise = styled.div`
 
       @media (max-width: 610px) {
         font-size: 1rem;
+      }
+
+      @media (max-width: 410px) {
+        text-indent: 0px;
       }
     }
   `}

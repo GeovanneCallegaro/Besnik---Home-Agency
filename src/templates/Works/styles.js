@@ -25,6 +25,10 @@ export const TextContainer = styled.div`
       font-family: ${theme.fonts.primaryFont};
       color: ${theme.colors.primaryFontColor};
       font-weight: 600;
+
+      @media (max-width: 610px) {
+        font-size: 2.3rem;
+      }
     }
 
     p {
@@ -33,6 +37,10 @@ export const TextContainer = styled.div`
       width: 420px;
       text-align: center;
       font-family: ${theme.fonts.primaryFont};
+
+      @media (max-width: 610px) {
+        width: 300px;
+      }
     }
   `}
 `;

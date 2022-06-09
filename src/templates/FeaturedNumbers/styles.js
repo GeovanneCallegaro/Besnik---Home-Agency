@@ -7,6 +7,10 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+
+    @media (max-width: 410px) {
+      margin-bottom: -40px;
+    }
   `}
 `;
 
@@ -30,6 +34,10 @@ export const TextContainer = styled.div`
 
     @media (max-width: 610px) {
       width: 400px;
+    }
+
+    @media (max-width: 410px) {
+      width: 300px;
     }
   `}
 `;
@@ -154,6 +162,10 @@ export const InfosContainer = styled.div`
     @media (max-width: 610px) {
       width: 400px;
       gap: 20px;
+    }
+
+    @media (max-width: 410px) {
+      width: 300px;
     }
   `}
 `;

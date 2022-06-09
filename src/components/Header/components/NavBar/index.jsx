@@ -20,7 +20,7 @@ export const NavBar = ({ menuText, isOpen, setIsOpen }) => {
 
   return (
     <C.Container>
-      <C.LinksContainer ref={menuContainer}>
+      <C.LinksContainer ref={menuContainer} id="containerMenu">
         {menuText.map((link) => (
           <C.NavLink key={link}>{link}</C.NavLink>
         ))}

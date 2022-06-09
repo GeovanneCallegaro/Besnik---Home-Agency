@@ -27,6 +27,10 @@ export const Container = styled.div`
       width: 400px;
       gap: 20px;
     }
+
+    @media (max-width: 410px) {
+      width: 300px;
+    }
   `}
 `;
 

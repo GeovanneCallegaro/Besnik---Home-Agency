@@ -7,6 +7,10 @@ export const Container = styled.div`
     height: 360px;
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 410px) {
+      width: 300px;
+    }
   `}
 `;
 
@@ -14,6 +18,10 @@ export const ImageProperty = styled.img`
   ${({ theme }) => css`
     width: 320px;
     height: 230px;
+
+    @media (max-width: 410px) {
+      width: 300px;
+    }
 `}
 `;
 
@@ -32,6 +40,10 @@ export const MasterInfos = styled.div`
   ${({ theme }) => css`
     margin-left: 30px;
     margin-top: 10px;
+
+    @media (max-width: 410px) {
+      margin-left: 20px;
+    }
 
     h4 {
       color: ${theme.colors.primaryFontColor};

@@ -10,20 +10,19 @@ export const Container = styled.header`
     padding-top: 15px;
     margin: 0 auto;
     margin-bottom: 20px;
-
-    @media (max-width: 1300px) {
-      width: 800px;
-      justify-content: space-between;
-    }
-
     
     .menu {
       display: none;
       font-size: 2rem;
-
+      
       @media (max-width: 810px) {
         display: block;
       }
+    }
+
+    @media (max-width: 1300px) {
+      width: 800px;
+      justify-content: space-between;
     }
 
     @media (max-width: 810px) {
@@ -34,6 +33,11 @@ export const Container = styled.header`
     @media (max-width: 610px) {
       width: 400px;
     }
+
+    @media (max-width: 410px) {
+      width: 300px;
+    }
+
   `}
 `;
 

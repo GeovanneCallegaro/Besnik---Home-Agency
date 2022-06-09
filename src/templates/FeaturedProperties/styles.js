@@ -36,6 +36,10 @@ export const Header = styled.div`
       gap: 0px;
       flex-direction: column;
     }
+
+    @media (max-width: 410px) {
+      width: 300px;
+    }
   `}
 `;
 
@@ -50,6 +54,10 @@ export const TitleContainer = styled.div`
       @media (max-width: 610px) {
         text-align: center;
       }
+
+      @media (max-width: 410px) {
+        font-size: 2.5rem;
+      }
     }
 
     p {
@@ -61,6 +69,11 @@ export const TitleContainer = styled.div`
 
       @media (max-width: 610px) {
         margin-bottom: 10px;
+      }
+
+      @media (max-width: 410px) {
+        text-align: center;
+        font-size: 1.5rem;
       }
     }
   `}

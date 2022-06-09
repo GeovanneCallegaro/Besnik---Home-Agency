@@ -10,6 +10,7 @@ export const Container = styled.div`
     width: 300px;
     height: 300px;
     flex-wrap: wrap;
+    margin-top: 50px;
 
     img {
       width: 35px;
@@ -35,13 +36,11 @@ export const Container = styled.div`
     @media (max-width: 810px) {
       width: 200px;
       height: 200px;
-      margin-top: 40px;
     } 
 
     @media (max-width: 610px) {
       width: 150px;
       height: 150px;
-      margin-top: 80px;
     } 
   `}
 `;

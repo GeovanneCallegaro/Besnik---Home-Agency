@@ -9,7 +9,7 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
-    const menuContainer = document.querySelector('.bzGtcw');
+    const menuContainer = document.querySelector('#containerMenu');
     if (isOpen === false) {
       setIsOpen(true);
       menuContainer.style.display = 'flex';
