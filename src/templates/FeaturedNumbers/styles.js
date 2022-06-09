@@ -39,16 +39,22 @@ export const ImageContainer = styled.div`
       right: 230px;
 
       @media (max-width: 1300px) {
-        width: 350px;
-        height: 350px;
-        right: 250px;
-        top: 10px;
+        width: 300px;
+        height: 300px;
+        right: 160px;
+        top: -10px;
+        display: none;
       }
     }
 
     img.house {
       width: 600px;
       height: 600px;
+
+      @media (max-width: 1300px) {
+        width: 400px;
+        height: 450px;
+      }
     }
 
   `}

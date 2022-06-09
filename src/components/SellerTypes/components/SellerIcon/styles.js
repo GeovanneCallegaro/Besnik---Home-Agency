@@ -9,6 +9,7 @@ export const Container = styled.div`
     justify-content: center;
     width: 300px;
     height: 300px;
+    flex-wrap: wrap;
 
     img {
       width: 35px;
@@ -25,5 +26,10 @@ export const Container = styled.div`
       align-self: center;
       margin-top: 10px;
     }
+
+    @media (max-width: 1300px) {
+      width: 250px;
+      height: 250px;
+    } 
   `}
 `;
