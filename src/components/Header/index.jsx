@@ -25,7 +25,7 @@ export const Header = () => {
           <img src={BesnikLogo} alt="Logo da empresa Besnik" />
         </C.LogoContainer>
         <NavBar
-          menuText={['Home', 'Features', 'Service', 'Listed', 'Contact']}
+          menuText={['Home', 'Service', 'Features', 'Contact']}
           isOpen={isOpen}
           setIsOpen={setIsOpen}
         />

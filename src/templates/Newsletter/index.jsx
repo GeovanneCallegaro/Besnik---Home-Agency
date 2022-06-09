@@ -4,7 +4,7 @@ import HouseIllustration from '../../assets/images/house-news.svg';
 
 export const Newsletter = () => {
   return (
-    <C.Container>
+    <C.Container id="Contact">
       <C.Background>
         <C.TextContainer>
           <h2>Featured Properties</h2>

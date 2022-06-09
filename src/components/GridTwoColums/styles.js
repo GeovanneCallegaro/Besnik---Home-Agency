@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.section`
   ${({ theme }) => css`
     width: 1300px;
     display: flex;

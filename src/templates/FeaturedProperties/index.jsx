@@ -4,7 +4,7 @@ import { PropertiesSection } from '../../components/PropertiesSection';
 
 export const FeaturedProperties = () => {
   return (
-    <C.Container>
+    <C.Container id="Features">
       <C.Header>
         <C.TitleContainer>
           <h2>Featured Properties</h2>

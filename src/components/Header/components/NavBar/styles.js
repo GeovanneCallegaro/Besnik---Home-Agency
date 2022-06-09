@@ -29,6 +29,10 @@ export const LinksContainer = styled.ul`
     padding: 5px;
     animation: ${linksShow} 1s;
 
+    a {
+      text-decoration: none;
+    }
+
     .close {
       display: none;
       margin-top: 10px;

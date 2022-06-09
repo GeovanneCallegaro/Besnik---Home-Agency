@@ -8,5 +8,6 @@ export const GlobalStyles = createGlobalStyle`
   }
   html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
   }
 `;

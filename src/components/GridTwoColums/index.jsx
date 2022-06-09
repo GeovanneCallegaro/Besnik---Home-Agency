@@ -4,7 +4,7 @@ import HouseImage from '../../assets/images/house.svg';
 
 export const GridTwoColums = () => {
   return (
-    <C.Container>
+    <C.Container id="Home">
       <GridText />
       <img src={HouseImage} alt="Imagem de uma casa" />
     </C.Container>

@@ -22,7 +22,9 @@ export const NavBar = ({ menuText, isOpen, setIsOpen }) => {
     <C.Container>
       <C.LinksContainer ref={menuContainer} id="containerMenu">
         {menuText.map((link) => (
-          <C.NavLink key={link}>{link}</C.NavLink>
+          <a href={`#${link}`} key={link}>
+            <C.NavLink onClick={() => handleMenu()}>{link}</C.NavLink>
+          </a>
         ))}
         {windowWidth <= 810 && (
           <C.ButtonsSection>
